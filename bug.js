@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Camera` component with a custom `onBarCodeScanned` function.  The function might not be called consistently or might stop working after a certain number of scans. This seems to be related to how Expo handles asynchronous operations within the camera's lifecycle. The issue is particularly noticeable when scanning barcodes rapidly.
